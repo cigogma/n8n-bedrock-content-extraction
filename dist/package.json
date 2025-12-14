@@ -47,6 +47,8 @@
         "n8n-workflow": "*"
     },
     "dependencies": {
-        "@aws-sdk/client-bedrock-runtime": "^3.948.0"
+        "@aws-sdk/client-bedrock-runtime": "^3.948.0",
+        "@aws-sdk/client-textract": "^3.948.0",
+        "@aws-sdk/client-s3": "^3.948.0"
     }
 }
