@@ -126,6 +126,7 @@ export class BedrockDocumentProcessor implements INodeType {
         description: 'Sampling temperature',
       },
     ],
+		usableAsTool: true,
   };
 
   async execute(this: IExecuteFunctions): Promise<INodeExecutionData[][]> {
